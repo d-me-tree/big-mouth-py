@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+boto3 = "*"
+rope = "*"
+ipython = "*"
+flake8 = "*"
+flake8-quotes = "*"
+
+[packages]
+pymustache = "*"
+requests = "*"
+aws-requests-auth = "*"     # AWS4 Signing Process with Python requests
+
+[requires]
+python_version = "3.8"
